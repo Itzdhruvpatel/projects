@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.point{
+    cursor: pointer;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+ width:100px;
+ height:50px;
+}
+.logo{
+    background-image: url("/project/amn.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:1.5px solid transparent
+}
+.border:hover{
+    border:1.5px solid white;
+     cursor: pointer;
+}
+/*box 2*/
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.fir{
+    margin-left: 15px;
+    color:#cccccc;
+    font-size: 0.85rem;
+}
+.sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/*box3*/
+.navsearch{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.searchinput{
+    width: 100%;
+    height: 38px;
+    border: none;
+    font-size: 1rem;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+.navsearch:hover{
+   border:3px solid #febd68;
+}
+
+/*box 4*/
+.navlang{
+    height: 57px;
+    display: flex;
+    align-items: center;
+    border:none;
+}
+.flag{
+    width: 24px;
+    height: 20px;
+    background-image: url("/project/language.jpeg");
+    background-size: cover;
+    margin-right: 2px;
+}
+.option{
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+/*box5*/
+span{
+    font-size: 0.7rem;
+}
+.navsec{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+
+/* box 6*/
+.navcart i{
+    font-size: 30px;
+}
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+/* hero section*/
+.herosec{
+    background-image: url("/project/heroimg.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.heromsg a{
+    color:#007185;
+    text-decoration: none;
+}
+.heromsg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95.5%;
+    margin-bottom: 45px;
+}
+
+/*shop section*/
+.box{
+    height: 450px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 15px;
+}
+.shopsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.boximg{
+    height: 300px;
+    background-size:cover ;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+}
+.boxcont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcont p{
+    color:#222f3d;
+}
+
+/*last box in content*/
+.pgendcont{
+    position: relative;
+    top: -19px;
+    height: 35px;
+    background-color: #e2e7e6;
+}
+
+.pgend{
+    background-color: white;
+    margin-top: 15px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    border: thin solid black;
+    border-radius: 5px;
+}
+.pgend button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f6cd00;
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    border: none;
+}
+.info{
+    font-size: 0.85rem;
+}
+
+/*footer*/
+.footpanel1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+.footpanel1{
+    margin-top: 31px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footpanel2 ul p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.footpanel2 ul{
+    margin-top: 40px;
+}
+
+.footpanel2 ul a{
+display: block;
+font-size: 0.85rem;
+margin-top: 10px;
+color: #dddddd;
+}
+
+.footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/project/amn.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.footpanel4{
+    background-color: #0F1111;
+    color: white;
+    height: 76px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
