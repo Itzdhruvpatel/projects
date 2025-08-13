@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.cont{
+    height:90vh;
+    background-image: url("bgimg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    position: relative;
+}
+.cont .box{
+    height:90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top:0; 
+}
+nav{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 175px;
+    position: relative;
+    z-index: 10;
+    right: 30px;
+}
+.lang{
+    position: relative;
+    z-index: 10;
+    height: 40px;
+    width: 420px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 20px;
+}
+.lang select{
+    width: 100px;
+    margin-right:10px ;
+    border-radius: 0.4rem;
+    background: transparent;
+    color: white;
+    border:2px solid white;
+    background-color: black;
+    opacity: 0.6;
+    font-weight: bolder;
+    font-size: 0.75rem;
+}
+.lang button{
+    width: 75px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+     height: 40px;
+     border-radius: 0.4rem;
+     font-size: 1rem;
+     font-weight: 450;
+}
+.lang button :active{
+    cursor: pointer;
+    border: 1rem solid white;
+}
+.hero{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+position: relative;
+font-family: martin;
+font-family: 'Martel Sans', sans-serif;
+}
+.hero #big{
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+}
+.hero #med{
+     font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+.hero .small{
+ font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.email input{
+    height:60px;
+    width:400px;
+    text-decoration: none;
+    background: transparent;
+    background-color: black;
+    opacity: 0.6;
+   color:white;
+   border-radius: 0.4rem;
+   border:2px solid white;
+   padding: 0 0 0 10px;
+   font-size: 1rem;
+   font-weight: 400;
+   margin-top:15px;
+}
+.email button{
+    height:60px;
+    width: 180px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin-left: 6px;
+    border-radius: 0.4rem;
+   border:2px solid black;
+}
+.email button i{
+    margin-left: 6px;
+}
+.section {
+  position: relative;
+  /* text-align: center; */
+  color: white;
+}
+
+.curved-separator {
+  position: relative;
+  height: 100px;
+  background: linear-gradient(to bottom, #1a1a40, #000); /* blue to black */
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-top: 3px solid #e91e63; /* pink/red line */
+}
+.section h2{
+    margin-left: 50px;
+}
+.movies{
+    height:400px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item img {
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#he{
+ color: white;
+ margin-left: 55px;
+ 
+}
+.reason{
+    height: 350px; /* Reduced height for better box ratio */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Even spacing */
+    align-items: stretch; /* Make all boxes equal height */
+}
+
+.res{
+    flex: 1; /* Each box takes equal width */
+    color: white;
+    margin: 20px;
+    min-width: 220px;
+    max-width: 350px;
+    height: 80%; 
+    background: linear-gradient(135deg, #0f1626, #1e1325, #2a0f1d);
+    border-radius: 1rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.res #b {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.g{
+   color: rgba(255, 255, 255, 0.7);
+   padding-top: 20px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 20px 0;
+    height:500px
+}
+.lol{
+    flex: 1;
+    color: white;
+    height:80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.45rem;
+    min-width: 1220px;
+    max-width: 1350px; 
+    background-color: rgb(55, 53, 53);
+    position: relative;
+    left:50px;
+    margin: 5px;
+    font-weight: 200;
+}
+.lol i {
+    position: absolute;
+    right: 30px;
+}
+.again{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.ae input{
+    height:80px;
+    width:600px;
+    text-decoration: none;
+    background: transparent;
+    background-color: black;
+    opacity: 0.6;
+   color:white;
+   border-radius: 0.4rem;
+   border:2px solid white;
+   padding: 0 0 0 10px;
+   font-size: 1rem;
+   font-weight: 400;
+   margin-top:15px;
+}
+.ae button{
+    height:60px;
+    width: 180px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin-left: 6px;
+    border-radius: 0.4rem;
+   border:2px solid black;
+}
+.ae button i{
+    margin-left: 6px;
+}
+footer {
+    background: #000;
+    color: #b3b3b3;
+    padding: 40px 0 20px 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.footer-call {
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-links > div {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #b3b3b3;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-lang {
+    margin-bottom: 25px;
+}
+
+.footer-lang select {
+    background: #222;
+    color: #b3b3b3;
+    border: 1px solid #333;
+    border-radius: 0.3rem;
+    padding: 6px 12px;
+    font-size: 1rem;
+}
+
+.footer-country {
+    margin-bottom: 15px;
+    color: #b3b3b3;
+    font-size: 0.95rem;
+}
+
+.footer-note {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
