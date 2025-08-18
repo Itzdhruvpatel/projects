@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel News</title>
+    <link rel="icon" type="image/x-icon" href="newslogo.png"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container flex maincont" >
+                <a href="#"><img src="patelnews.png" alt="Patel News Logo" width="100px"></a>
+                <ul class="navlink flex">
+                    <li class="hoveritem navitem" id="sports">Sports</li>
+                    <li class="hoveritem navitem" id="politics">Politics</li>
+                    <li class="hoveritem navitem" id="technology">Technology</li>
+                    <li class="hoveritem navitem" id="entertainment">Entertainment</li>
+                    <li class="hoveritem navitem" id="health">Health</li>
+                    <li class="hoveritem navitem" id="science">Science</li>
+                </ul>
+                <div class="searchbar flex">
+                <input type="text" placeholder="Search..." class="searchInput" id="searchInput">
+                <button class="searchButton" id="searchButton">Search</button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="card-cont container flex " id="maincard">
+          
+        </div>
+    </main>
+    <template id="temp"> 
+          <div class="card">
+            <div class="chead">
+                <img id="cimg" src="https://www.adgully.com/img/400x300/202304/sudhir-chaoudhary.png.jpg" alt="News Logo" width="100%">
+            </div>
+            <div class="content">
+                <h3 id="ctitle">this is Title </h3>
+                <h6 class="csub" id="csub">Subtitle</h6>
+                <p class="cpara" id="cpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto fugit laudantium maiores animi in omnis voluptate! Quis minus ipsum similique nesciunt. Illum ducimus fugit magni sed reprehenderit ab hic blanditiis.</p>
+                
+            </div>
+            </div>
+    </template>
+    <script src="news.js"></script>
+</body>
+</html>
